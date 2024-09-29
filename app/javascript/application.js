@@ -2,5 +2,5 @@
 import "@hotwired/turbo-rails"
 import "./controllers"
 import "popper"
-import "bootstrap"
-import * as bootstrap from "bootstrap"
+import 'flowbite';
+import "flowbite/dist/flowbite.turbo.js";
