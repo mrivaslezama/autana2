@@ -61,3 +61,4 @@ end
 
 gem "bootstrap"
 gem "sassc-rails"
+gem "tailwindcss-rails", "~> 2.7"

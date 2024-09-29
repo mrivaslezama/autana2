@@ -1,0 +1,84 @@
+
+
+<!--
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+  ```
+-->
+<div class="bg-white">
+  <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <h2 ">Productos</h2>
+
+    <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <%= image_tag "furniture7", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Muebles para baños</h3>
+        
+      </a>
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <%= image_tag "furniture1", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Cocinas</h3>
+        
+      </a>
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <%= image_tag "furniture12", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Muebles a medida</h3>
+        
+      </a>
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <%= image_tag "furniture3", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Remodelaciones</h3>
+        
+      </a>
+
+      <!-- More products... -->
+    </div>
+
+    <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <%= image_tag "furniture6", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Diseños</h3>
+        
+      </a>
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <%= image_tag "furniture4", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Centros de entretenimiento</h3>
+        
+      </a>
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <%= image_tag "furniture5", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Muebles a medida</h3>
+        
+      </a>
+      <a href="#" class="group">
+        <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+          <%= image_tag "cocinareal", class: "h-full w-full object-cover object-center lg:h-full lg:w-full" %>
+        </div>
+        <h3 class="mt-4 text-sm text-gray-700">Reparación y mantenimiento</h3>
+        
+      </a>
+  </div>
+</div>
